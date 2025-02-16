@@ -61,28 +61,25 @@
 
   <script>
     let deferredPrompt;
-  
 
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
       deferredPrompt = e;
-      console.log('beforeinstallprompt event captured');
+      console.log('Evento beforeinstallprompt capturado');
     });
-  
+
     const installButton = document.querySelector('.cta-btn');
-  
-    installButton.addEventListener('click', async () => {
+
+    installButton.addEventListener('click', async (event) => {
+      event.preventDefault();
       if (deferredPrompt) {
         deferredPrompt.prompt();
         const { outcome } = await deferredPrompt.userChoice;
-        console.log(`User response to the install prompt: ${outcome}`);
+        console.log(`Respuesta del usuario al prompt de instalación: ${outcome}`);
         deferredPrompt = null;
-      } else {
         console.log('El prompt de instalación no está disponible.');
       }
     });
   </script>
-  
-
 </body>
 </html>
