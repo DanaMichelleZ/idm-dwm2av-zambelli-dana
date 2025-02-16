@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "nombre": "Almohada ajustable de espuma viscoelástica triturada",
+        "descripcion": "Almohada ergonómica con espuma viscoelástica para un descanso óptimo. Hemos incluido paneles de malla y espuma viscoelástica con gel transversal para garantizar que el flujo de aire pueda disipar el calor de forma natural, manteniéndote fresco durante toda la noche.",
+        "precio": 29.99,
+        "imagenes": {
+            "xs": "assets/images/productos/almohada-400px.jpg",
+            "sm": "assets/images/productos/almohada-600px.jpg",
+            "md": "assets/images/productos/almohada-800px.jpg",
+            "lg": "assets/images/productos/almohada-1000px.jpg",
+            "xl": "assets/images/productos/almohada-1200px.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Almohada de látex",
+        "descripcion": "Almohada de alta densidad. El rebote, el contorno y la transpirabilidad de esta impresionante espuma obtienen su poder de la madre naturaleza. El uso de un proceso de extracción de savia de los árboles de caucho crea una almohada duradera y sensible hecha 100 % de látex.",
+        "precio": 199.99,
+        "imagenes": {
+            "xs": "assets/images/productos/almohada-latex-400px.jpg",
+            "sm": "assets/images/productos/almohada-latex-600px.jpg",
+            "md": "assets/images/productos/almohada-latex-800px.jpg",
+            "lg": "assets/images/productos/almohada-latex-1000px.jpg",
+            "xl": "assets/images/productos/almohada-latex-1200px.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Almohada de látex Saatva",
+        "descripcion": "Sumérjase en un sueño profundo y reparador con la comodidad de calidad hotelera de nuestra lujosa almohada de látex. Disponible en dos alturas de relleno diferentes diseñadas para mantenerte en perfecta alineación sin importar cómo duermas.",
+        "precio": 19.99,
+        "imagenes": {
+            "xs": "assets/images/productos/almohada-saatva-400px.jpg",
+            "sm": "assets/images/productos/almohada-saatva-600px.jpg",
+            "md": "assets/images/productos/almohada-saatva-800px.jpg",
+            "lg": "assets/images/productos/almohada-saatva-1000px.jpg",
+            "xl": "assets/images/productos/almohada-saatva-1200px.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Edredón ClimaSense",
+        "descripcion": "Diseñado para adaptarse a cada tipo de durmiente y ambiente, este lujoso edredón con regulación de temperatura proporciona el grosor y la suavidad deseados. Es ideal tanto para personas que duermen con calor como con frío.",
+        "precio": 315.00,
+        "imagenes": {
+            "xs": "assets/images/productos/edredon-climasense-400px.jpg",
+            "sm": "assets/images/productos/edredon-climasense-600px.jpg",
+            "md": "assets/images/productos/edredon-climasense-800px.jpg",
+            "lg": "assets/images/productos/edredon-climasense-1000px.jpg",
+            "xl": "assets/images/productos/edredon-climasense-1200px.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Almohada personalizable LAYR",
+        "descripcion": "LAYR viene preconfigurada con nuestra combinación más popular: un lado con alternativa de plumas ultra suave y otro lado con espuma viscoelástica triturada con gel. Puedes voltearla para mayor comodidad o intercambiar un lado con el inserto de espuma sólida para mayor firmeza. Agrega o quita relleno hasta encontrar tu ajuste perfecto.",
+        "precio": 140.00,
+        "imagenes": {
+            "xs": "assets/images/productos/almohada-layr-400px.jpg",
+            "sm": "assets/images/productos/almohada-layr-600px.jpg",
+            "md": "assets/images/productos/almohada-layr-800px.jpg",
+            "lg": "assets/images/productos/almohada-layr-1000px.jpg",
+            "xl": "assets/images/productos/almohada-layr-1200px.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Manta ligera",
+        "descripcion": "Con un perfil más delgado que un edredón tradicional, esta manta acolchada es perfectamente suave y transpirable para mantenerte cómodo durante todo el año. Su tejido de viscosa de bambú térmicamente regulado es ideal para personas que duermen con calor, proporcionando al mismo tiempo suficiente abrigo en las estaciones frías.",
+        "precio": 195.00,
+        "imagenes": {
+            "xs": "assets/images/productos/manta-ligera-400px.jpg",
+            "sm": "assets/images/productos/manta-ligera-600px.jpg",
+            "md": "assets/images/productos/manta-ligera-800px.jpg",
+            "lg": "assets/images/productos/manta-ligera-1000px.jpg",
+            "xl": "assets/images/productos/manta-ligera-1200px.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Manta con peso",
+        "descripcion": "Diseñada científicamente para ayudarte a dormir mejor sin sobrecalentarte. Nuestras mantas con peso de lujo están disponibles en dos versiones: con funda removible (de 2 piezas) y con funda integrada (de 1 pieza).", 
+        "precio": 155.00,
+        "imagenes": {
+            "xs": "assets/images/productos/manta-pesada-400px.jpg",
+            "sm": "assets/images/productos/manta-pesada-600px.jpg",
+            "md": "assets/images/productos/manta-pesada-800px.jpg",
+            "lg": "assets/images/productos/manta-pesada-1000px.jpg",
+            "xl": "assets/images/productos/manta-pesada-1200px.jpg"
+        }
+    }
+]

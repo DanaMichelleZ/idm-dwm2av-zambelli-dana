@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sleep Solutions AppStore: descubre la app que transforma tu descanso con productos y consejos respaldados por la ciencia del sueño.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Solutions AppStore</title>
+
+       <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+       <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+       <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+       <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+       <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+       <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+       <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+       <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+       <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+       <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-icon-192x192.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+       <link rel="manifest" href="manifest.json">
+       <meta name="msapplication-TileColor" content="#ffffff">
+       <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+       <meta name="theme-color" content="#ffffff">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="visually-hidden">Sleep Solutions</h1>
+    
+        <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/sleep-solution-logo-secundario.png" alt="Sleep Solutions Logo" class="d-block d-lg-none" height="50">
+                    <img src="assets/images/sleep-solution-logo.png" alt="Sleep Solutions Logo" class="d-none d-lg-block" height="50">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#catalogo">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carrito">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ciencia-sueno-detalle">Ciencia del Sueño</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    
+    <main>
+        <section id="home" class="section"> 
+            <h2>Bienvenido a Sleep Solutions</h2>
+            <p>Descubre cómo mejorar tu descanso con los mejores productos y consejos respaldados por la ciencia del sueño.</p>
+            
+            <picture class="banner-home">
+                <source srcset="assets/images/banner-home-640px.jpg" media="(max-width: 640px)">
+                <source srcset="assets/images/banner-home-960px.jpg" media="(max-width: 960px)">
+                <source srcset="assets/images/banner-home-1280px.jpg" media="(max-width: 1280px)">
+                <img src="assets/images/banner-home-1600px.jpg" alt="Banner Sleep Solutions">
+            </picture>
+            
+            
+            <div class="info-container">
+                <div class="info-box">
+                    <h3>Bienvenidos a SleepSolutions</h3>
+                    <p>Somos una empresa dedicada a brindar soluciones integrales para mejorar la calidad del sueño de nuestros clientes. Desde hace más de 10 años, nos enfocamos en investigar y desarrollar productos y servicios que ayuden a las personas a descansar mejor y tener un sueño reparador.</p>
+                    <p>Nuestra misión es mejorar la calidad de vida de las personas a través de un sueño de calidad. Sabemos que el descanso es fundamental para el bienestar físico y mental, por lo que trabajamos día a día para ofrecer productos y servicios innovadores que cubran las necesidades de cada uno de nuestros clientes.</p>
+                </div>
+                <div class="info-box">
+                    <h3>Productos recomendados</h3>
+                    <p>Explora nuestro catálogo de productos diseñados para mejorar tu descanso: almohadas ergonómicas, mantas térmicas y más.</p>
+                    <button onclick="showSection('catalogo')" class="btn-custom">Ver Catálogo</button>
+                </div>
+            </div>
+        
+            <div class="ciencia-sueno">
+                <h3>La Ciencia del Sueño</h3>
+                <p>Durante el sueño, el cuerpo se regenera, el cerebro procesa recuerdos y las funciones vitales se restauran. Un buen descanso es clave para una vida saludable.</p>
+                <button onclick="showSection('ciencia-sueno-detalle')" class="btn-custom">Aprende Más</button>
+            </div>
+            
+        </section>
+        
+        <section id="catalogo" class="section" style="display: none;">
+            <h2>Catálogo de Productos</h2>
+            <div class="productos-container d-flex flex-wrap justify-content-center gap-3">
+            </div>
+        </section>
+        
+        <section id="carrito" class="section" style="display: none;">
+            <h2>Carrito de Compras</h2>
+            <div class="carrito-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="carrito-items">
+                    </tbody>
+
+                </table>
+                <p>Total de la compra: <span id="total-carrito">$0.00</span></p>
+                <button onclick="vaciarCarrito()" class="btn btn-danger">Vaciar Carrito</button>
+                <button onclick="showSection('checkout')" class="btn btn-success">Finalizar Compra</button>
+            </div>
+        </section>
+        
+        <section id="checkout" class="section" style="display: none;">
+            <h2>Finalizar Compra</h2>
+            <p>Total de la compra: <span id="total-checkout">$0.00</span></p>
+            <button id="checkout-button" class="btn btn-success">Confirmar Compra</button>
+        </section>
+
+        <section id="ciencia-sueno-detalle" class="section" style="display: none;">
+            <h2>Ciencia del Sueño</h2>
+            <p>El sueño es un estado natural de descanso y rejuvenecimiento que experimentan los seres humanos y muchos otros animales. Durante el sueño, el cuerpo y la mente se relajan y experimentan una serie de procesos fisiológicos importantes, como la reparación y el crecimiento de los tejidos, la consolidación de la memoria y el fortalecimiento del sistema inmunológico.</p>
+        
+            <h3>¿Qué son las etapas del sueño?</h3>
+            <p>El sueño no es un proceso uniforme. A lo largo de la noche, pasamos por varias rondas del ciclo de sueño, compuesto por cuatro etapas individuales. Estas etapas permiten que el cerebro y el cuerpo se recuperen y se desarrollen. No obtener suficiente sueño profundo y sueño REM puede afectar el pensamiento, las emociones y la salud física.</p>
+        
+            <div class="ciencia-sueno-container">
+                <div class="ciencia-sueno-box">
+                    <h3>Etapa 1</h3>
+                    <p>La etapa N1 es el primer estado del sueño y dura de uno a siete minutos. En esta etapa, el cuerpo comienza a relajarse, pero aún no está completamente dormido. Es fácil despertarse en esta fase.</p>
+                </div>
+        
+                <div class="ciencia-sueno-box">
+                    <h3>Etapa 2</h3>
+                    <p>En la etapa N2, el cuerpo entra en un estado más profundo de relajación. La temperatura corporal baja, el ritmo cardíaco y la respiración se ralentizan, y el movimiento ocular se detiene. Esta etapa representa alrededor del 50% del tiempo total de sueño.</p>
+                </div>
+        
+                <div class="ciencia-sueno-box">
+                    <h3>Etapa 3</h3>
+                    <p>Conocida como el sueño profundo o sueño de ondas lentas (SWS), esta etapa es fundamental para la restauración física y el fortalecimiento del sistema inmunológico. También está relacionada con la creatividad y la consolidación de la memoria.</p>
+                </div>
+            </div>
+        
+            <h3>¿Qué tan diferente es el sueño para hombres y mujeres?</h3>
+            <p>Si bien el sueño es esencial para todos, existen diferencias clave en la forma en que hombres y mujeres experimentan el descanso. Las mujeres suelen dormir más tiempo, pero tienden a experimentar más interrupciones del sueño. Factores hormonales, como la menstruación, el embarazo y la menopausia, afectan la calidad del sueño en las mujeres.</p>
+            <p>Los hombres, por otro lado, son más propensos a padecer trastornos del sueño como la apnea del sueño, lo que puede llevar a una mayor fatiga durante el día.</p>
+        
+            <h3>¿La falta de sueño afecta a mujeres y hombres de manera diferente?</h3>
+            <p>La privación del sueño tiene efectos negativos tanto en hombres como en mujeres. Sin embargo, las mujeres pueden ser más vulnerables a los cambios de humor y a los trastornos de ansiedad como resultado del insomnio. Los hombres, en cambio, pueden experimentar una disminución en la función cognitiva y un mayor riesgo de enfermedades cardiovasculares cuando no duermen lo suficiente.</p>
+        
+            <h3>¿Las parejas duermen diferente?</h3>
+            <p>El sueño en pareja puede tener ventajas y desventajas. Si bien compartir la cama puede aumentar la sensación de seguridad y bienestar, también puede generar interrupciones debido a diferencias en los ciclos de sueño y los hábitos nocturnos.</p>
+            <p>Los estudios muestran que una relación positiva puede mejorar la calidad del sueño, mientras que los conflictos o el estrés dentro de la pareja pueden generar problemas de insomnio y sueño ligero.</p>
+        
+            <button onclick="showSection('home')" class="btn btn-primary">Volver al Inicio</button>
+        </section>
+        
+               
+    </main>
+    
+
+    <button type="button" class="btn-info-fixed" data-bs-toggle="modal" data-bs-target="#infoModal">Info</button>
+    
+    <div class="modal fade" id="infoModal" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="infoModalLabel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infoModalLabel">Información del Alumno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/images/info-foto-alumno.jpg" alt="Foto del Alumno" class="img-fluid rounded mb-3">
+            <p><strong>Nombre:</strong> Dana Michelle Zambelli</p>
+            <p><strong>Carrera:</strong> Diseño y Programación Web</p>
+            <p><strong>Materia:</strong> Interacción con Dispositivos Móviles</p>
+            <p><strong>Comisión:</strong> DWN2AV</p>
+            <p><strong>Turno:</strong> Noche</p>
+            <p><strong>Año y Cuatrimestre:</strong> 2023 - 2do Cuatrimestre</p>
+            <p><strong>Docente:</strong> D'ADDEZIO, Alejandro</p>
+            <p><strong>Carácter de Entrega:</strong> Final</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+              .then(registration => {
+                console.log('Service Worker registrado con éxito:', registration.scope);
+              })
+              .catch(error => {
+                console.error('Error al registrar el Service Worker:', error);
+              });
+          });
+        } else {
+          console.log('Service Workers no son soportados en este navegador.');
+        }
+      </script>
+</body>
+</html>

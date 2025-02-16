@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f4ef;
+  color: #003366;
+  line-height: 1.6;
+}
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+header img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+
+
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+.hero picture,
+.how-it-works picture {
+  display: block;
+  margin: 20px auto;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
+
+.cta-btn {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.how-it-works {
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.how-it-works h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.how-it-works .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-item {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.feature-item h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.feature-item p {
+  font-size: 1rem;
+}
+
+
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+  
+  .cta-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  .how-it-works h3 {
+    font-size: 1.8rem;
+  }
+}

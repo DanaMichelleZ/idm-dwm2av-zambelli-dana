@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html, body {
+  background-color: #f0f4ef;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header h1 {
+  display: none;
+}
+
+.navbar {
+  background-color: #003366;
+  padding: 10px 20px;
+}
+.navbar-brand img {
+  max-height: 50px;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-nav {
+  gap: 15px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffcc00;
+}
+
+
+
+.banner-home {
+  width: 100%;
+  max-width: 1600px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.banner-home img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+button, .btn {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  outline: none;
+}
+button:hover, .btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+button:active, .btn:active {
+  background-color: #002244;
+  transform: scale(0.98);
+}
+.btn-custom {
+  background-color: #003366;
+  border: 1px solid #003366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.btn-custom:active {
+  background-color: #002244;
+  border-color: #002244;
+}
+.btn-danger {
+  background-color: #DC3545;
+}
+.btn-danger:hover {
+  background-color: #A71D2A;
+}
+.btn-success {
+  background-color: #28A745;
+}
+.btn-success:hover {
+  background-color: #1E7E34;
+}
+.btn-info {
+  background-color: #003366;
+}
+.btn-info:hover {
+  background-color: #003366;
+}
+
+
+/* Estilos para el botón flotante de Información del Alumno */
+.btn-info-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    color: #003366;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  .btn-info-fixed:hover {
+    background-color: #e6b800;
+    transform: scale(1.1);
+  }
+  
+
+
+.section {
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 40px 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+
+#home h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 15px;
+}
+#home p {
+  font-size: 1rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+.info-box {
+  flex: 1 1 300px;
+  background-color: #ebe9e7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: left;
+}
+.info-box h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #003366;
+  margin-top: 30px;
+}
+.info-box p {
+  font-size: 1rem;
+  color: #003366;
+}
+
+
+
+.ciencia-sueno {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.ciencia-sueno h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+.ciencia-sueno p {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+
+
+#ciencia-sueno-detalle h2,
+#ciencia-sueno-detalle h3 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+#ciencia-sueno-detalle p {
+  font-size: 1rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+.ciencia-sueno-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 40px 0;
+}
+.ciencia-sueno-box {
+  flex: 1 1 300px;
+  background-color: white;
+  border: 1px solid #ebe9e7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: left;
+}
+.ciencia-sueno-box h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #003366;
+}
+.ciencia-sueno-box p {
+  font-size: 0.9rem;
+  color: #003366;
+}
+#ciencia-sueno-detalle button {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+#ciencia-sueno-detalle button:hover {
+  background-color: #0056b3;
+}
+
+
+
+#catalogo h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+#carrito h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.carrito-container table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.carrito-container th,
+.carrito-container td {
+  white-space: normal;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: #003366;
+}
+#carrito p {
+  font-size: 0.1rem;
+  color: #003366;
+  margin: 20px 0;
+}
+
+
+
+#checkout h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+#checkout p {
+  font-size: 1rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+  header {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .banner-home {
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+  .info-box {
+    width: 100%;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding: 20px 5px;
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  @media (max-width: 480px) {
+    .carrito-container {
+      overflow-x: hidden;
+    }
+    .carrito-container table,
+    .carrito-container thead,
+    .carrito-container tbody,
+    .carrito-container th,
+    .carrito-container td,
+    .carrito-container tr {
+      display: block;
+      width: 100%;
+    }
+    .carrito-container thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    .carrito-container td {
+      border: none;
+      position: relative;
+      padding-left: 50%;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .carrito-container td:before {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      white-space: nowrap;
+      font-weight: bold;
+      color: #003366;
+    }
+    .carrito-container td:nth-of-type(1):before { content: "Producto"; }
+    .carrito-container td:nth-of-type(2):before { content: "Precio"; }
+    .carrito-container td:nth-of-type(3):before { content: "Cantidad"; }
+    .carrito-container td:nth-of-type(4):before { content: "Total"; }
+    .carrito-container td:nth-of-type(5):before { content: "Acciones"; }
+  }
+  button, .btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 480px) and (max-width: 575px) {
+  body {
+    font-size: 13px;
+  }
+  header {
+    padding: 12px 15px;
+  }
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .info-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info-box{
+    align-items: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 15px;
+  }
+  .info-container {
+    justify-content: space-between;
+  }
+  header {
+    padding: 15px 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 16px;
+  }
+  .info-container {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+  .info-container {
+    justify-content: space-between;
+  }
+}
