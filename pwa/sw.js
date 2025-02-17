@@ -1,13 +1,13 @@
 const CACHE_NAME = 'sleep-solutions-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/assets/data/products.json',
-  '/assets/images/sleep-solution-logo.png',
-  '/assets/images/sleep-solution-logo-secundario.png'
+  'index.html',
+  'styles.css',
+  'app.js',
+  'assets/data/products.json',
+  'assets/images/sleep-solution-logo.png',
+  'assets/images/sleep-solution-logo-secundario.png'
 ];
+
 
 self.addEventListener('install', event => {
   console.log('[Service Worker] Instalando...');
