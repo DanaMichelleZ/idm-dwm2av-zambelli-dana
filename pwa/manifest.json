@@ -1,8 +1,8 @@
 {
     "name": "Sleep Solutions",
     "short_name": "SleepSol",
-    "start_url": "index.html",
-    "scope": "./",
+    "start_url": "/idm-dwm2av-zambelli-dana/pwa/index.html",
+    "scope": "/idm-dwm2av-zambelli-dana/pwa/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#003366",
