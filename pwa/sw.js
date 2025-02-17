@@ -1,6 +1,6 @@
 const CACHE_NAME = 'sleep-solutions-cache-v1';
 const urlsToCache = [
-  'index.html',
+  'pwa.html',
   'styles.css',
   'app.js',
   'assets/data/products.json',
