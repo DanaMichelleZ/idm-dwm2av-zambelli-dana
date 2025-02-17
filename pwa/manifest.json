@@ -1,7 +1,7 @@
 {
     "name": "Sleep Solutions",
     "short_name": "SleepSol",
-    "start_url": "/pwa/index.html",
+    "start_url": "index.html",
     "scope": "/pwa/",
     "display": "standalone",
     "background_color": "#ffffff",
